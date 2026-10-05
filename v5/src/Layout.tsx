@@ -53,6 +53,7 @@ const LangSelector: React.FC = () => {
     <Menu.Dropdown>
       <Menu.Item onClick={languageAction('zh-TW')}>中文(臺灣)</Menu.Item>
       <Menu.Item onClick={languageAction('en')}>English</Menu.Item>
+      <Menu.Item onClick={languageAction('ja')}>日本語</Menu.Item>1
     </Menu.Dropdown>
   </Menu>
 }
